@@ -1,29 +1,11 @@
-核心功能
+ Core Features
  
-1. 模式快捷控制
-​
-- 支持通过音量键组合快速切换“狂暴模式/普通模式”，适配游戏、日常等场景；
-​
-- 充电状态自动应用预设温控参数，平衡性能与发热。
-​
-2. 自定义配置
-​
-- 支持手动修改配置文件，自定义温控阈值、功能开关等参数；
-​
-- 修复系统默认功能限制，解决操作逻辑冲突问题（如强制选择弹窗优化）。
+Quickly switch between Performance and Normal modes using volume key combinations (suited for gaming or daily use). When charging, the module automatically applies preset temperature controls to balance performance and heat. Adjust temperature limits and feature toggles via config files, and it fixes system restrictions like optimizing forced-selection popups.
  
-优势特点
+Key Benefits
  
-- 轻量无冗余：仅保留核心功能，不占用额外系统资源；
-​
-- 适配性强：覆盖欧加系主流机型，兼容最新系统版本；
-​
-- 操作极简：无需复杂设置，通过按键/自动规则即可快速生效。
+It’s lightweight, only keeping essential functions without using extra system resources. It works with most OPPO/OnePlus/realme devices and latest system versions. No complex setup—just use key combinations or auto-rules to activate features.
  
-使用说明
+How to Use
  
-1. 安装模块后重启设备；
-​
-2. 通过音量键组合触发模式切换；
-​
-3. 编辑模块目录下的配置文件，自定义功能参数。
+Reboot your device after installing the module. Use volume key combinations to switch modes, and edit the config file in the module folder to customize settings.
