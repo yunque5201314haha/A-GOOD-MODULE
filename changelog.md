@@ -1,11 +1,1 @@
- Core Features
- 
-Quickly switch between Performance and Normal modes using volume key combinations (suited for gaming or daily use). When charging, the module automatically applies preset temperature controls to balance performance and heat. Adjust temperature limits and feature toggles via config files, and it fixes system restrictions like optimizing forced-selection popups.
- 
-Key Benefits
- 
-It’s lightweight, only keeping essential functions without using extra system resources. It works with most OPPO/OnePlus/realme devices and latest system versions. No complex setup—just use key combinations or auto-rules to activate features.
- 
-How to Use
- 
-Reboot your device after installing the module. Use volume key combinations to switch modes, and edit the config file in the module folder to customize settings.
+修复了action使用错误
