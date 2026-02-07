@@ -1,7 +1,7 @@
 id=Temperature
 name=欧加真仅充电伪装温度
-version=v1.3
-versionCode=13
+version=v1.4
+versionCode=14
 author=空vain(石板上回荡的二改)
 description=按钮可选充电时切换的伪装温度,原装建议37°C
 updateJson=https://raw.githubusercontent.com/yunque5201314haha/A-GOOD-MODULE/main/update.json
