@@ -7,4 +7,6 @@ dalvik.vm.dexopt.thermal-cutoff=0
 sys.thermal.enable=false
 init.svc.horae=stopped
 persist.vendor.enable.cpulimit=false
-persist.sys.oplus.wifi.sla.game_high_temperature=
+persist.sys.oplus.wifi.sla.game_high_temperature=1
+persist.vendor.charge.thermal.control=0
+ro.oplus.charge.thermal.limit=0
