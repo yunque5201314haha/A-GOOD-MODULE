@@ -2,5 +2,5 @@
   "version": "1.2",
   "versionCode": 12,
   "zipUrl": "https://github.com/yunque5201314haha/A-GOOD-MODULE/releases/download/v1.2/default.zip",
-  "changelog": "https://github.com/yunque5201314haha/A-GOOD-MODULE/releases/tag/v1.2",
+  "changelog": "https://raw.githubusercontent.com/yunque5201314haha/A-GOOD-MODULE/changelog.md",
 }
