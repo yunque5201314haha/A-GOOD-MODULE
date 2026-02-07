@@ -22,12 +22,11 @@ choose_mode() {
 	echo "$choice" > "$MODE_FILE"
 }
 
-NEW_TEMP=$(cat "$MODE_FILE" 2>/dev/null)
+# 【核心：不管文件有没有值，强制调用选择，绝不跳过】
+choose_mode
 
-if [ -z "$NEW_TEMP" ]; then
-	choose_mode
-	NEW_TEMP=$(cat "$MODE_FILE")
-fi
+# 选择完再读取本次设置的值
+NEW_TEMP=$(cat "$MODE_FILE" 2>/dev/null)
 
 STATUS=$(cat /sys/class/power_supply/battery/status 2>/dev/null)
 
@@ -42,3 +41,6 @@ else
 	echo "- 当前未充电，模式已读取: $NEW_TEMP"
 	echo "- 充电时自动应用"
 fi
+
+echo "五秒后退出"
+sleep 5
