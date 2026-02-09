@@ -4,7 +4,10 @@ start thermal-engine 2>/dev/null
 start vendor.thermal-engine 2>/dev/null
 start horae 2>/dev/null
 start oplus_horae 2>/dev/null
-
-su 2000 -c "cmd notification cancel thermal_mode" >/dev/null 2>&1
+setprop persist.vendor.thermal.enable 1
+setprop vendor.thermal.enable 1
+setprop sys.thermal.enable 1
+start thermal-engine
+start vendor.thermal-engine
 
 exit 0

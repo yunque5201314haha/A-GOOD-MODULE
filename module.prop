@@ -1,7 +1,7 @@
 id=Temperature
 name=欧加真仅充电伪装温度
-version=v1.4
-versionCode=14
+version=v1.51
+versionCode=151
 author=空vain(石板上回荡的二改)
-description=按钮可选充电时切换的伪装温度,原装建议37°C
+description=伪装充电时的温度以及删除温控，日常使用时不伪装不删除，解除亮屏限制充电功率
 updateJson=https://raw.githubusercontent.com/yunque5201314haha/A-GOOD-MODULE/main/update.json
