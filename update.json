@@ -1,7 +1,7 @@
 {
-  "version": "v2.0",
-  "versionCode": 20,
-  "zipUrl": "https://github.com/yunque5201314haha/A-GOOD-MODULE/releases/download/v2.0/default.zip",
+  "version": "v3.0",
+  "versionCode": 30,
+  "zipUrl": "https://github.com/yunque5201314haha/A-GOOD-MODULE/releases/download/v3.0beta/beta.zip",
   "changelog": "https://raw.githubusercontent.com/yunque5201314haha/A-GOOD-MODULE/main/changelog.md",
   "minMagisk": 24000,
   "support": ["arm64-v8a"]
